@@ -17,7 +17,7 @@ public class DBA extends ManejadorDB {
 
     @Override
     public void crearSentencia() {
-        System.out.println("select * from USERS where AGE=23");
+        System.out.println("SENTENCIA -> select * from USERS where AGE=23    (los nombres de las columnas y tablas estan en mayusculas)");
     }
     
 }

@@ -17,7 +17,7 @@ public class DBC extends ManejadorDB{
 
     @Override
     public void crearSentencia() {
-        System.out.println("select * from USERS where age=23");
+        System.out.println("SENTENCIA -> select * from USERS where age=23    (los nombres de las tablas y columnas pueden estar como sea)");
     }
     
 }
