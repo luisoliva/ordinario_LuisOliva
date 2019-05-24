@@ -22,6 +22,7 @@ public class SageController {
         Persona patricia = new DirectorEmail("Patricia");
         
         System.out.println("Creando bitacora de compras...");
+        System.out.println("Limite establecido para las compras -> 100");
         Bitacora bitacora = new Bitacora();
         
         System.out.println("Asignando observadores...");
